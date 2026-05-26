@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+img {
+    width: 20%;
+    margin-left: 78%;
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    margin-left: 2em;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+header, .footerelement {
+    background-color: orange;
+}
+
+header>* {
+    margin-right: 2%;
+}
+
+main {
+    text-align: justify;
+    margin-left: 42%;
+}
+
+input[type="text"], input[type="number"] {
+    width: 243px;
+    height: 20px;
+}
+
+.radioinput {
+    margin-left: 4px;
+}
+
+input[type="submit"] {
+    width: 253px;
+    height: 30px;
+    margin-bottom: 4%;
+}
+
+footer {
+    background-image: url(images/bg.png);
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1%;
+}
+
+a:hover {
+    font-size: large;
+}
